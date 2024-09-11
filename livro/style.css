@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+.nav-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#page0, #page1, #page2, #page3, #page4, #page5 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#page0 h1, #page1 h1 {
+    font-size: 24px;
+    color: #e74c3c;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    color: black;
+}
+
+.grilo-falante {
+    color: black; 
+    background-color: #e2e2e2; 
+}
+
+#page7 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+}
+
+#page7 h1 {
+    color: #e74c3c;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#page7 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#page7 img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #e74c3c;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #f8f9fa; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Adiciona espaço interno */
+    margin-top: 20px; /* Adiciona espaço acima do footer */
+    border-top: 1px solid #ddd; /* Linha fina na parte superior */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+footer p {
+    margin: 5px 0; /* Espaço entre os parágrafos */
+}
+
+nav {
+    background-color: #007bff; /* Cor de fundo da barra de navegação */
+    padding: 10px 20px; /* Espaço interno */
+    position: fixed; /* Fixa a barra no topo */
+    top: 0; /* Alinha no topo da página */
+    left: 0; /* Alinha à esquerda da página */
+    width: 100%; /* Ocupa toda a largura da página */
+    z-index: 1000; /* Garante que a barra fique acima de outros elementos */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    display: flex; /* Exibe os itens da lista em linha */
+    justify-content: center; /* Centraliza os itens da lista */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaço entre os itens da lista */
+}
+
+nav ul li a {
+    color: #ffffff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: color 0.3s; /* Adiciona uma transição suave para a cor dos links */
+}
+
+nav ul li a:hover {
+    color: #d3d3d3; /* Cor dos links quando o mouse passa por cima */
+}
